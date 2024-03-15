@@ -141,6 +141,18 @@ public class Game {
         BotScores.put(bot, prev + score); // Adds the new score onto the previous score
     }
 
+    public static int findGameIndex(int[][] game, int player) {
+        int index = game.length;
+        for(int i = 0; i < game[player].length; i++) {
+            if(game[player][i] == -1) {
+                index = i;
+                break;
+            }
+        }
+
+        return index;
+    }
+
     interface GameBot {
         int makeMove(int[][] game, int player);
         String Name();
