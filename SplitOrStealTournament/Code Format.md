@@ -7,7 +7,7 @@ Rules:
 - If both bots choose to steal then each bot receives +1 point
 - Each bot must make a move each turn
 - The bots program may not interfere with the main game program or other bots programs
-- Each bot will play against all the other bots at least once
+- Each bot will play against all the other bots once
 - The bot with the most points overall is the winner!
 
 Here is an example of what a random bot might look like. 
