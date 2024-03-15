@@ -10,6 +10,11 @@ import java.util.Comparator;
 
 public class Game {
 
+    interface GameBot {
+        int makeMove(int[][] game, int player);
+        String Name();
+    }
+
     private static List<GameBot> bots = new ArrayList<>();
     
     private static Map<GameBot, Integer> BotScores = new HashMap<>();
@@ -151,10 +156,5 @@ public class Game {
         }
 
         return index;
-    }
-
-    interface GameBot {
-        int makeMove(int[][] game, int player);
-        String Name();
     }
 }
