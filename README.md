@@ -1,2 +1,8 @@
 # RandomStuff
-Random stuff for other people to download
+This is my public repo where I upload lots of random projects I have made.
+These might include:
+- Games
+- Simulations
+- Calculators
+- Animations
+- General CompSci stuff
