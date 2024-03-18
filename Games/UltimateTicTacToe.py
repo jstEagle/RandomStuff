@@ -1,8 +1,6 @@
 import pygame
 import sys
 
-from enum import Enum
-
 pygame.init()
 
 DARK = (26, 26, 26)
