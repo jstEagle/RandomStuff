@@ -155,6 +155,6 @@ public class Game {
             }
         }
 
-        return index;
+        return index -1; //Returns the index of the last move made by this player
     }
 }
