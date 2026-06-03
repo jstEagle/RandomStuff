@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "title": "Random Stuff",
+  "description": "A small public collection of miscellaneous Python files and downloads.",
+  "tags": [
+    "Python",
+    "Utilities",
+    "Archive"
+  ],
+  "featured": false,
+  "order": 265,
+  "links": {
+    "repo": "https://github.com/jstEagle/RandomStuff"
+  },
+  "images": []
+}
