@@ -1,11 +1,13 @@
 {
   "schemaVersion": 1,
   "title": "Random Stuff",
-  "description": "A small public collection of miscellaneous Python files and downloads.",
+  "description": "A collection of Python games and simulations, small JavaScript utilities, and a Java split-or-steal tournament experiment.",
   "tags": [
     "Python",
-    "Utilities",
-    "Archive"
+    "JavaScript",
+    "Java",
+    "Games",
+    "Simulations"
   ],
   "featured": false,
   "order": 265,
